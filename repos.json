@@ -1,9 +1,9 @@
 [  {
     "kernelSource": {
-      "name": "miku-KernelSU",
-      "repo": "https://github.com/PhamtomK12/kernel_xiaomi_odin",
-      "branch": "TDA",
-      "device": ""
+      "name": "android_kernel_xiaomi_whyred",
+      "repo": "https://github.com/radcolor/android_kernel_xiaomi_whyred",
+      "branch": "kernel-hmp",
+      "device": "whyred"
     },
     "withKernelSU": false,
     "toolchains": [
