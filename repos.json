@@ -1,9 +1,9 @@
 [  {
     "kernelSource": {
-      "name": "android_kernel_xiaomi_whyred",
-      "repo": "https://github.com/radcolor/android_kernel_xiaomi_whyred",
-      "branch": "kernel-hmp",
-      "device": "whyred"
+      "name": "android_kernel_xiaomi_mocha",
+      "repo": "https://github.com/HighwayStar/android_kernel_xiaomi_mocha",
+      "branch": "cm-14.1",
+      "device": "mocha"
     },
     "withKernelSU": false,
     "toolchains": [
@@ -14,7 +14,7 @@
       }
     ],
     "params": {
-      "ARCH": "arm64",
+      "ARCH": "arm",
       "CROSS_COMPILE": "aarch64-linux-gnu-",
       "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
       "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
