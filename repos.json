@@ -13,15 +13,15 @@
         "name": "gas"
       },
       {
-        "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
-        "branch": "11",
-        "name": "clang"
+        "repo": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9",
+        "branch": "nougat-release",
+        "name": "gcc"
       }
     ],
     "params": {
       "ARCH": "arm",
-      "CROSS_COMPILE": "arm-linux-gnueabihf",
-      "CC": "clang"
+      "CROSS_COMPILE": "arm-linux-androideabi-",
+      "CC": "gcc"
     }
   }
 ]
